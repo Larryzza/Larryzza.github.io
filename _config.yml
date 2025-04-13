@@ -12,7 +12,7 @@ title                    : "Zian ZHUANG"
 title_separator          : "-"
 name                     : &name "Home page"
 description              : &description "personal description"
-url                      : https://Larryzza.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://zianzhuang.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Larryzza/Larryzza.github.io"
 
