@@ -21,13 +21,4 @@ I have worked on topics such as synthetic IV estimation for censored restricted
 mean survival time (RMST), interpretable machine learning for clinical 
 risk prediction, and epidemic modeling.
 
-Beyond research, I serve as a teaching assistant for graduate-level 
-courses including Mathematical Statistics, Linear Models, Multivariate 
-Biostatistics, and Survival Analysis. I’ve also contributed to the Summer 
-Institute in Statistics and Modeling of Infectious Diseases (SISMID) at 
-Emory University as a teaching assistant. Additionally, I work as a 
-statistician in the UCLA School of Medicine’s COPD Program, 
-where I collaborate with medical professionals to design analyses, 
-interpret complex data, and effectively communicate results.
-
 Outside of academics, I enjoy playing tennis, badminton, and table tennis.

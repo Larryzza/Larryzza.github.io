@@ -52,17 +52,6 @@ Please click here for a more detailed [CV]({{ base_path }}/files/CV.pdf).
 
 ---
 
-## Teaching Experience
-
-### University of California, Los Angeles (2023 – Present)
-- TA for: Mathematical Statistics (202A/B), Linear Models (250A), Multivariate Biostatistics (250C), Survival Analysis (215)
-
-### Emory University – SISMID Program (Jul. 2024)
-- TA for: *Simulation-based Inference for Epidemiological Dynamics*  
-  Focus: Partially Observed Markov Process (POMP) models
-
----
-
 ## 🏥 Statistical Consulting
 
 **Statistician, COPD Program, UCLA School of Medicine (Jul. 2022 – Present)**  
