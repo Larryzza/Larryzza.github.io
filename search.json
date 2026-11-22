@@ -18,7 +18,7 @@
     "href": "cv/index.html#research-interests",
     "title": "Curriculum vitae",
     "section": "Research interests",
-    "text": "Research interests\nPrediction-powered and semi-supervised inference for time-to-event data, using machine learning and large language model predictions to improve efficiency while maintaining valid inference under censoring and model misspecification; causal inference and evaluation of risk prediction with censored outcomes."
+    "text": "Research interests\nPrediction-powered and semi-supervised inference with machine learning and large language model predictions; causal inference for time-to-event outcomes; survival prediction and model evaluation."
   },
   {
     "objectID": "cv/index.html#research-experience",
@@ -26,6 +26,13 @@
     "title": "Curriculum vitae",
     "section": "Research experience",
     "text": "Research experience\n\nPh.D. research, Department of Biostatistics, UCLA\nJune 2022–present · Advisor: Dr. Gang Li\n\nPrediction-powered Cox regression with large language model predictions. A semi-supervised Cox regression method that augments a small labeled sample with predictions, including those from large language models, for a larger unlabeled sample. Under independent censoring, its asymptotic variance is no larger than that of the labeled-only estimator, whether or not the Cox model holds. Applied to NHANES mortality and NACC dementia progression. Manuscript in preparation; Python package in development.\nPredictive performance evaluation for survival and competing risks. Time-restricted generalized R² and pseudo-R² measures for right-censored competing-risk prediction (Biometrics, in press). A tutorial on survival prediction performance measures and the R package PAmeasures (submitted to Statistics in Medicine).\nInstrumental variable estimation for censored outcomes. A data-adaptive censored two-stage least squares estimator for semiparametric accelerated failure time models (Statistics in Biosciences, 2026).\nHistorical-control matching for clinical trials. A matching framework that combines propensity scores from structured covariates with large language model embeddings of clinical notes.\n\n\n\nEpidemiological modeling and predictive analysis, The Hong Kong Polytechnic University\nAugust 2019–August 2021 · Advisor: Dr. Daihai He\n\nDeveloped an interpretable XGBoost model for antituberculosis drug-induced liver injury, with an R Shiny application for clinical risk prediction.\nBuilt SEIR models of inter-city SARS-CoV-2 transmission and estimated inpatient and ICU bed shortages.\nModeled mortality, long ICU stays, and length of hospital stay for COVID-19 patients."
+  },
+  {
+    "objectID": "cv/index.html#software",
+    "href": "cv/index.html#software",
+    "title": "Curriculum vitae",
+    "section": "Software",
+    "text": "Software\n\nPAmeasures (author and maintainer). Prediction performance measures for continuous and survival outcomes, including right-censored data, competing risks, and case-cohort and nested case-control designs. CRAN GitHub\ncTSLS. Censored two-stage least squares for semiparametric AFT models, with a web application. GitHub Web app"
   },
   {
     "objectID": "cv/index.html#presentations",
@@ -42,39 +49,25 @@
     "text": "Professional service\n\nSession chair, “Approaches for Measurement Error and Missing Data,” Joint Statistical Meetings, Boston, MA, August 2026."
   },
   {
-    "objectID": "cv/index.html#statistical-consulting",
-    "href": "cv/index.html#statistical-consulting",
+    "objectID": "cv/index.html#statistical-consulting-and-teaching",
+    "href": "cv/index.html#statistical-consulting-and-teaching",
     "title": "Curriculum vitae",
-    "section": "Statistical consulting",
-    "text": "Statistical consulting\nStatistician, UCLA Jonsson Comprehensive Cancer Center\nJuly 2022–present Member of the Biostatistics, Analytical Support & Evaluation (BASE) Unit: study design, analysis planning, power and sample size calculations, and statistical sections of NIH grant applications.\nStatistician, UCLA COPD Program\nJuly 2022–present Statistical modeling, visualization, and interpretation for clinical research in chronic obstructive pulmonary disease."
+    "section": "Statistical consulting and teaching",
+    "text": "Statistical consulting and teaching\nStatistician, UCLA Jonsson Comprehensive Cancer Center\nJuly 2022–present Member of the Biostatistics, Analytical Support & Evaluation (BASE) Unit: study design, analysis planning, power and sample size calculations, and statistical sections of NIH grant applications.\nStatistician, UCLA COPD Program\nJuly 2022–present Statistical modeling, visualization, and interpretation for clinical research in chronic obstructive pulmonary disease.\nTeaching Assistant, UCLA\nJanuary 2023–present BIOSTAT 410 (Clinical Trials), 250A/250C (Linear and Multivariate Models), 215 (Survival Analysis), 202A/202B (Mathematical Statistics), and 200C (Generalized Linear Models).\nTeaching Assistant, Emory University\nJuly 2024 Summer Institute in Statistics and Modeling in Infectious Diseases (SISMID)."
   },
   {
-    "objectID": "cv/index.html#teaching",
-    "href": "cv/index.html#teaching",
+    "objectID": "cv/index.html#skills-and-interests",
+    "href": "cv/index.html#skills-and-interests",
     "title": "Curriculum vitae",
-    "section": "Teaching",
-    "text": "Teaching\n\nUCLA, January 2023–present. Teaching assistant for BIOSTAT 410 (Clinical Trials), 250A/250C (Linear and Multivariate Models), 215 (Survival Analysis), 202A/202B (Mathematical Statistics), and 200C (Generalized Linear Models).\nEmory University, July 2024. Teaching assistant, Summer Institute in Statistics and Modeling of Infectious Diseases (SISMID)."
-  },
-  {
-    "objectID": "cv/index.html#software",
-    "href": "cv/index.html#software",
-    "title": "Curriculum vitae",
-    "section": "Software",
-    "text": "Software\n\nPAmeasures (author and maintainer). Prediction performance measures for continuous and survival outcomes, including right-censored data, competing risks, and case-cohort and nested case-control designs. CRAN GitHub\ncTSLS. Censored two-stage least squares for semiparametric AFT models, with a web application. GitHub Web app"
-  },
-  {
-    "objectID": "cv/index.html#skills",
-    "href": "cv/index.html#skills",
-    "title": "Curriculum vitae",
-    "section": "Skills",
-    "text": "Skills\nR, Julia, Python, Stan, SAS, LaTeX."
+    "section": "Skills and interests",
+    "text": "Skills and interests\nProgramming: R, Julia, Python, Stan, SAS, LaTeX.\nInterests: Tennis, badminton, table tennis, photography."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Zian Zhuang",
     "section": "",
-    "text": "Zian Zhuang\n      I develop statistical methods for time-to-event data. My current work uses predictions from machine learning and large language models to make survival analyses more efficient while keeping inference valid.\n      Ph.D. Candidate in Biostatistics (expected June 2027)Fielding School of Public Health, University of California, Los Angeles\n      \n        CV\n        Google Scholar\n        GitHub\n        Email\n      \n    \n    \n      \n    \n  \n\n\n\n\n  \n    News\n    \n      Oct 2026Paper on time-dependent pseudo-R² for competing risks accepted in Biometrics.\n      Oct 2026Released PAmeasures 2.0.0 on CRAN, an R package for evaluating survival prediction performance.\n      Aug 2026Gave a contributed talk on pseudo-R² and chaired a session at JSM 2026 in Boston.\n      Jul 2026Censored two-stage least squares paper published in Statistics in Biosciences.\n      Mar 2026Gave a contributed talk on instrumental variable estimation for censored outcomes at ENAR 2026 in Indianapolis.\n      Sep 2025Gave an invited seminar at the Department of Biostatistics, City University of Hong Kong.\n    \n  \n\n\n\n\n  \n    \n      Research\n      More on my research →\n      Statistical methods for complex time-to-event data.\n    \n    \n      \n        \n        \n          Prediction-powered inference Main focus\n          Survival regression that uses machine learning and large language model predictions on unlabeled data to gain efficiency, with valid inference whether or not the predictions are accurate.\n        \n      \n      \n        \n        \n          Censored data methods\n          Valid inference under censoring and model misspecification.\n        \n      \n      \n        \n        \n          Prediction evaluation\n          Explained variation and performance measures for survival and competing-risk prediction models.\n        \n      \n      \n        \n        \n          Causal inference\n          Instrumental variable estimation for censored outcomes.\n        \n      \n      \n        \n        \n          Clinical collaboration\n          Statistical analysis for COPD and oncology studies at UCLA.\n        \n      \n    \n  \n\n\n\n\n  \n    \n      Selected publications\n      All publications →\n    \n    \n      \n        Semi-supervised inference\n        Prediction-powered inference for right-censored survival outcomes\n        Cox regression that combines a small labeled sample with machine learning and LLM predictions for a larger unlabeled sample.\n        \n          Manuscript in preparation\n          Overview\n        \n      \n      \n        Prediction evaluation\n        Time-dependent pseudo-R² for assessing predictive performance in competing risks data\n        Measures of explained variation for prediction models with right-censored competing-risk data.\n        \n          Biometrics, in press\n          arXiv\n        \n      \n      \n        Causal inference\n        Two-stage least squares for semiparametric AFT models with right-censored data\n        Instrumental variable estimation for accelerated failure time models when the outcome is censored.\n        \n          Statistics in Biosciences, 2026\n          DOIarXiv\n        \n      \n    \n  \n\n\n\n\n  \n    About\n    \n      I am a Ph.D. candidate in Biostatistics at UCLA, advised by Dr. Gang Li. My main line of research is prediction-powered and semi-supervised inference: using predictions from machine learning models and large language models to make survival analyses more efficient, while keeping inference valid under censoring and model misspecification. Related interests include causal inference and the evaluation of risk prediction models with censored outcomes. I also collaborate with clinical researchers in the UCLA School of Medicine’s COPD Program.\n      I earned an M.S. in Biostatistics from UCLA and a B.B.A. in Financial Services with a minor in Applied Mathematics from The Hong Kong Polytechnic University. I have served as a teaching assistant for graduate biostatistics courses at UCLA and at Emory University’s Summer Institute in Statistics and Modeling of Infectious Diseases.\n      Outside academia, I enjoy tennis, badminton, and table tennis."
+    "text": "Zian Zhuang\n      I develop statistical methods for time-to-event data. My current work uses predictions from machine learning and large language models to make survival analyses more efficient while keeping inference valid.\n      Ph.D. Candidate in Biostatistics (expected June 2027)Fielding School of Public Health, University of California, Los Angeles\n      \n        CV\n        Google Scholar\n        GitHub\n        Email\n      \n    \n    \n      \n    \n  \n\n\n\n\n  \n    News\n    \n      Oct 2026Paper on time-restricted generalized R² measures for competing risks accepted in Biometrics.\n      Oct 2026Released PAmeasures 2.0.0 on CRAN, an R package for evaluating survival prediction performance.\n      Aug 2026Gave a contributed talk on pseudo-R² and chaired a session at JSM 2026 in Boston.\n      Jul 2026Censored two-stage least squares paper published in Statistics in Biosciences.\n      Mar 2026Gave a contributed talk on instrumental variable estimation for censored outcomes at ENAR 2026 in Indianapolis.\n      Sep 2025Gave an invited seminar at the Department of Biostatistics, City University of Hong Kong.\n    \n  \n\n\n\n\n  \n    \n      Research\n      More on my research →\n      Statistical methods for complex time-to-event data.\n    \n    \n      \n        \n        \n          Prediction-powered inference Main focus\n          Survival regression that uses machine learning and large language model predictions on unlabeled data to gain efficiency, with valid inference whether or not the predictions are accurate.\n        \n      \n      \n        \n        \n          Censored data methods\n          Valid inference under censoring and model misspecification.\n        \n      \n      \n        \n        \n          Prediction evaluation\n          Explained variation and performance measures for survival and competing-risk prediction models.\n        \n      \n      \n        \n        \n          Causal inference\n          Instrumental variable estimation for censored outcomes.\n        \n      \n      \n        \n        \n          Clinical collaboration\n          Statistical analysis for COPD and oncology studies at UCLA.\n        \n      \n    \n  \n\n\n\n\n  \n    \n      Selected publications\n      All publications →\n    \n    \n      \n        Semi-supervised inference\n        Prediction-powered inference for right-censored survival outcomes\n        Cox regression that combines a small labeled sample with machine learning and LLM predictions for a larger unlabeled sample.\n        \n          Manuscript in preparation\n          Overview\n        \n      \n      \n        Prediction evaluation\n        Time-restricted generalized R² measures for assessing predictive performance in competing risks data\n        Measures of explained variation for prediction models with right-censored competing-risk data.\n        \n          Biometrics, in press\n          arXiv\n        \n      \n      \n        Causal inference\n        Two-stage least squares for semiparametric AFT models with right-censored data\n        Instrumental variable estimation for accelerated failure time models when the outcome is censored.\n        \n          Statistics in Biosciences, 2026\n          DOIarXiv\n        \n      \n    \n  \n\n\n\n\n  \n    About\n    \n      I am a Ph.D. candidate in Biostatistics at UCLA, advised by Dr. Gang Li. My main line of research is prediction-powered and semi-supervised inference: using predictions from machine learning models and large language models to make survival analyses more efficient, while keeping inference valid under censoring and model misspecification. Related interests include causal inference and the evaluation of risk prediction models with censored outcomes. I also collaborate with clinical researchers in the UCLA School of Medicine’s COPD Program.\n      I earned an M.S. in Biostatistics from UCLA and a B.B.A. in Financial Services with a minor in Applied Mathematics from The Hong Kong Polytechnic University. I have served as a teaching assistant for graduate biostatistics courses at UCLA and at Emory University’s Summer Institute in Statistics and Modeling in Infectious Diseases.\n      Outside academia, I enjoy tennis, badminton, table tennis, and photography."
   },
   {
     "objectID": "research/index.html",
@@ -95,7 +88,7 @@
     "href": "research/index.html#evaluating-risk-prediction",
     "title": "Research",
     "section": "Evaluating risk prediction",
-    "text": "Evaluating risk prediction\nTo assess prediction models for right-censored competing-risk data, I proposed time-dependent pseudo-R² measures (Biometrics, in press). They give an interpretable measure of explained variation and model adequacy beyond the C-index, Brier score and time-dependent AUC.\nI also wrote a tutorial on survival prediction performance measures (submitted to Statistics in Medicine) and maintain the R package PAmeasures. The package implements discrimination, calibration and overall accuracy measures for right-censored data, competing risks, and case-cohort and nested case-control designs. In earlier work, I contributed to an interpretable machine learning model for predicting antituberculosis drug-induced liver injury."
+    "text": "Evaluating risk prediction\nTo assess prediction models for right-censored competing-risk data, I proposed time-restricted generalized R² measures (Biometrics, in press). They give an interpretable measure of explained variation and model adequacy beyond the C-index, Brier score and time-dependent AUC.\nI also wrote a tutorial on survival prediction performance measures (submitted to Statistics in Medicine) and maintain the R package PAmeasures. The package implements discrimination, calibration and overall accuracy measures for right-censored data, competing risks, and case-cohort and nested case-control designs. In earlier work, I contributed to an interpretable machine learning model for predicting antituberculosis drug-induced liver injury."
   },
   {
     "objectID": "research/index.html#causal-inference-with-censored-outcomes",
@@ -123,7 +116,7 @@
     "href": "publications/index.html#methodological-research",
     "title": "Publications",
     "section": "Methodological research",
-    "text": "Methodological research\n\nZhuang Z, et al. Prediction-powered inference for right-censored survival outcomes. Manuscript in preparation.\nZhuang Z, Su W, Kawaguchi E, Li G. Time-dependent pseudo-R² for assessing predictive performance in competing risks data. Biometrics, in press. arXiv\nZhuang Z, Zhu T, Su W, Dai X, Li G. Evaluating survival prediction performance: a tutorial using the R package PAmeasures. Submitted to Statistics in Medicine. CRAN GitHub\nZhuang Z, Zhou H, Zhou J, Li G. Two-stage least squares instrumental variable estimation for semiparametric accelerated failure time models with right-censored data. Statistics in Biosciences, 2026. DOI arXiv"
+    "text": "Methodological research\n\nZhuang Z, et al. Prediction-powered inference for right-censored survival outcomes. Manuscript in preparation.\nZhuang Z, Su W, Kawaguchi E, Li G. Time-restricted generalized R² measures for assessing predictive performance in competing risks data. Biometrics, in press. arXiv\nZhuang Z, Zhu T, Su W, Dai X, Li G. Evaluating survival prediction performance: a tutorial using the R package PAmeasures. Submitted to Statistics in Medicine. CRAN GitHub\nZhuang Z, Zhou H, Zhou J, Li G. Two-stage least squares instrumental variable estimation for semiparametric accelerated failure time models with right-censored data. Statistics in Biosciences, 2026. DOI arXiv"
   },
   {
     "objectID": "publications/index.html#collaborative-and-applied-research",
@@ -158,6 +151,6 @@
     "href": "teaching/index.html#emory-university",
     "title": "Teaching",
     "section": "Emory University",
-    "text": "Emory University\nTeaching assistant, Summer Institute in Statistics and Modeling of Infectious Diseases (SISMID), July 2024."
+    "text": "Emory University\nTeaching assistant, Summer Institute in Statistics and Modeling in Infectious Diseases (SISMID), July 2024."
   }
 ]
