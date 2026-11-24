@@ -27,30 +27,30 @@
 
 /* ==========================================================
    Design tokens (light, then dark)
-   One ink colour in several strengths, one muted teal accent.
+   Blue-black ink in several strengths on a mint-white ground, one deep teal accent.
    ========================================================== */
 :root {
   --serif: "EB Garamond", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --ink: #1a1a1a;
-  --ink-2: #33322f;
-  --muted: #75736d;
-  --line: #e6e3dc;
-  --bg: #fdfcfa;
-  --accent: #2b6f69;
-  --accent-strong: #1d4d49;
+  --ink: #12262e;
+  --ink-2: #2b3c43;
+  --muted: #62757b;
+  --line: #dce6e5;
+  --bg: #fcfefd;
+  --accent: #0e7c86;
+  --accent-strong: #0a5a62;
   --radius: 2px;
   --wrap: 1080px;
 }
 
 body.quarto-dark {
-  --ink: #efede8;
-  --ink-2: #cfcdc7;
-  --muted: #9a9892;
-  --line: #2b2e2c;
-  --bg: #131514;
-  --accent: #7fc3b9;
-  --accent-strong: #b5e0d9;
+  --ink: #e9f1f2;
+  --ink-2: #c5d1d4;
+  --muted: #8b9ea3;
+  --line: #23343a;
+  --bg: #0f181b;
+  --accent: #5fc2ca;
+  --accent-strong: #a3e1e5;
 }
 
 body {
@@ -110,7 +110,7 @@ a.chip,
 .navbar {
   padding-inline: 0 !important;
   border-bottom: 1px solid var(--line);
-  background-color: rgba(253, 252, 250, 0.9) !important;
+  background-color: rgba(252, 254, 253, 0.9) !important;
   box-shadow: none;
   -webkit-backdrop-filter: saturate(160%) blur(10px);
   backdrop-filter: saturate(160%) blur(10px);
@@ -118,7 +118,7 @@ a.chip,
 }
 
 body.quarto-dark .navbar {
-  background-color: rgba(19, 21, 20, 0.9) !important;
+  background-color: rgba(15, 24, 27, 0.9) !important;
 }
 
 /* Keep the navbar on screen while scrolling (Quarto hides it on scroll-down by default). */
@@ -237,7 +237,7 @@ a:is(.btn-solid, .profile-cv):is(:hover, :focus-visible) {
 }
 
 body.quarto-dark a:is(.btn-solid, .profile-cv):is(:hover, :focus-visible) {
-  color: #131514;
+  color: #0f181b;
 }
 
 a.btn-ghost,
@@ -469,7 +469,7 @@ main li {
   isolation: isolate;
   height: clamp(250px, 38vh, 370px);
   overflow: hidden;
-  background: #2a2b2c;
+  background: #12262e;
   color: #fff;
 }
 
